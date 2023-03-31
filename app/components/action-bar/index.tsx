@@ -95,8 +95,8 @@ const ActionBar = () => {
           </div>
         </div>
 
-        {/* <div className="mobile-nav">
-          <div className="action-btns">
+         <div className="mobile-nav">
+          <div className="action-buttons">
             <div className="filter-action">
               <span>Filter</span>
               <svg
@@ -186,7 +186,7 @@ const ActionBar = () => {
             <div className="badge-cicle">Code Assistance</div>
             <div className="badge-cicle">Copy Writing</div>
           </div>
-        </div> */}
+        </div> 
       </div>
     </>
   )
