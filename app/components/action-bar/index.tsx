@@ -19,8 +19,8 @@ const ActionBar = () => {
               <g>
                 <path
                   d="M370.216,459.3c10.2,11.1,15.8,25.6,15.8,40.6v442c0,26.601,32.1,40.101,51.1,21.4l123.3-141.3
-		c16.5-19.8,25.6-29.601,25.6-49.2V500c0-15,5.7-29.5,15.8-40.601L955.615,75.5c26.5-28.8,6.101-75.5-33.1-75.5h-873
-		c-39.2,0-59.7,46.6-33.1,75.5L370.216,459.3z"
+  	c16.5-19.8,25.6-29.601,25.6-49.2V500c0-15,5.7-29.5,15.8-40.601L955.615,75.5c26.5-28.8,6.101-75.5-33.1-75.5h-873
+  	c-39.2,0-59.7,46.6-33.1,75.5L370.216,459.3z"
                 />
               </g>
             </svg>
@@ -33,9 +33,9 @@ const ActionBar = () => {
             >
               <path
                 stroke="#000000"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
                 d="M18 10H2m0 0l7-7m-7 7l7 7"
               />
             </svg>
@@ -56,9 +56,9 @@ const ActionBar = () => {
             >
               <path
                 stroke="#000000"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
                 d="M2 10h16m0 0l-7-7m7 7l-7 7"
               />
             </svg>
@@ -95,7 +95,7 @@ const ActionBar = () => {
           </div>
         </div>
 
-        <div className="mobile-nav">
+        {/* <div className="mobile-nav">
           <div className="action-btns">
             <div className="filter-action">
               <span>Filter</span>
@@ -111,8 +111,8 @@ const ActionBar = () => {
                 <g>
                   <path
                     d="M370.216,459.3c10.2,11.1,15.8,25.6,15.8,40.6v442c0,26.601,32.1,40.101,51.1,21.4l123.3-141.3
-		c16.5-19.8,25.6-29.601,25.6-49.2V500c0-15,5.7-29.5,15.8-40.601L955.615,75.5c26.5-28.8,6.101-75.5-33.1-75.5h-873
-		c-39.2,0-59.7,46.6-33.1,75.5L370.216,459.3z"
+  	c16.5-19.8,25.6-29.601,25.6-49.2V500c0-15,5.7-29.5,15.8-40.601L955.615,75.5c26.5-28.8,6.101-75.5-33.1-75.5h-873
+  	c-39.2,0-59.7,46.6-33.1,75.5L370.216,459.3z"
                   />
                 </g>
               </svg>
@@ -155,9 +155,9 @@ const ActionBar = () => {
               >
                 <path
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
                   d="M18 10H2m0 0l7-7m-7 7l7 7"
                 />
               </svg>
@@ -170,9 +170,9 @@ const ActionBar = () => {
               >
                 <path
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
                   d="M2 10h16m0 0l-7-7m7 7l-7 7"
                 />
               </svg>
@@ -186,10 +186,11 @@ const ActionBar = () => {
             <div className="badge-cicle">Code Assistance</div>
             <div className="badge-cicle">Copy Writing</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
+  
 }
 
 export default ActionBar

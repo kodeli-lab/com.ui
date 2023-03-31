@@ -24,9 +24,9 @@ const SubscribeCard = () => {
             >
               <path
                 stroke="hsl(198, 85%, 49%)"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
                 d="M7 16l6-6-6-6"
               />
             </svg>
