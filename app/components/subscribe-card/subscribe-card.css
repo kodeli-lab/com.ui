@@ -1,0 +1,54 @@
+.subs-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #d2d3d7;
+    padding: 22px;
+    gap: 16px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.subs-card img {
+    width: 35%;
+}
+
+.subs-card  .title, .desc {
+    text-align: center;
+    margin: 5px;
+}
+
+.subs-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.subs-card form > input, button[type="submit"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #d2d3d7;
+    border-radius: 8px;
+}
+
+.subs-card button[type="submit"] {
+    color: #ffff;
+    background-color: hsl(198, 85%, 49%);
+}
+
+.subs-card a  {
+    display: inline-flex;
+    justify-content: center;
+    gap: 6px;
+    color: hsl(198, 85%, 49%);
+}
+
+.subs-card a > span svg {
+    text-align: center;
+    width: 24px;
+}

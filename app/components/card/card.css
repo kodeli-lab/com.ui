@@ -1,0 +1,119 @@
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #d2d3d7;
+}
+
+.card:hover {
+    border: 1px solid hsl(198, 85%, 49%);
+}
+
+.card > img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card button {
+    border: 1px solid #d2d3d7;
+    border-radius: 8px;
+}
+
+.card svg {
+    width: 24px;
+    height: auto;
+}
+
+.card .pill {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: clamp(0.75rem, 0.71rem + 0.18vw, 0.875rem);
+    line-height: 1;
+    padding: 0.35rem 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #d2d3d7;
+    background: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0 5px;
+    color: var(--color-primary);
+}
+
+.card__header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 22px 22px 0 22px;
+}
+
+.card__header h2 {
+    padding-right: 5px;
+}
+
+.card__header  div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 22px;
+}
+
+.card__body .card__badge {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 15px 0;
+    
+}
+
+.card__body .card__badge .rating {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.card__body .card__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__body .card__links a {
+    display: block;
+    color: var(--color-primary);
+}
+
+
+.card__footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 22px 20px 22px;
+}
+
+.card__footer button {
+    width: 100%;
+    margin: 0px 8px;
+    border: 1px solid hsl(198, 85%, 49%);
+}
+
+.card__footer button svg {
+    padding-top: 6px;
+}
+
+.card__footer button:hover {
+    background-color: aqua;
+}
