@@ -12,7 +12,7 @@ export default function Home() {
           {featuredProductList &&
             featuredProductList.map((product) => (
               <Card
-                id={product.id}
+                key={product.id}
                 title={product.title}
                 likes={product.likes}
                 rating={product.rating}
@@ -24,7 +24,7 @@ export default function Home() {
           {productlist &&
             productlist.map((product) => (
               <Card
-                id={product.id}
+                key={product.id}
                 title={product.title}
                 likes={product.likes}
                 rating={product.rating}

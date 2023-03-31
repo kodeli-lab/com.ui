@@ -1,7 +1,6 @@
 import './card.css'
 
 type Props = {
-  id: string
   title: string
   likes: number
   rating: number
@@ -9,10 +8,10 @@ type Props = {
   image_url: string
 }
 
-const Card = ({ id, title, desc, likes, rating, image_url }: Props) => {
+const Card = ({ title, desc, likes, rating, image_url }: Props) => {
   return (
     <>
-      <div className="card" key={id}>
+      <div className="card">
         <img src={`${image_url}`} alt="product-image" />
         <div className="card__header">
           <div>

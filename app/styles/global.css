@@ -151,6 +151,13 @@ main {
   margin-top: 64px;
 }
 
+@media (max-width: 768px) {
+  main {
+    margin: 0px;
+    padding: 24px 24px;
+  }
+}
+
 
 
 
