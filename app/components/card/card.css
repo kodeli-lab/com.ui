@@ -114,6 +114,10 @@
     padding-top: 6px;
 }
 
-.card__footer button:hover {
-    background-color: aqua;
+ button:focus {
+    cursor: pointer;
+    background-color: #d2d3d7;
 }
+
+
+

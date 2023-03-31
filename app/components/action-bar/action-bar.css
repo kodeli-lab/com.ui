@@ -26,6 +26,12 @@
     padding-right: 10px;
 }
 
+.filter-action:hover {
+    border: 1px solid hsl(198, 85%, 49%);
+    color: hsl(198, 85%, 49%);
+    cursor: pointer;
+}
+
 .sortby-action {
     position: relative;
     display: flex;
@@ -55,6 +61,12 @@
 .sortby-action .text {
     padding: 0 10px 0 0;
 }
+
+.sortby-action:hover {
+    border: 1px solid hsl(198, 85%, 49%);
+    color: hsl(198, 85%, 49%);
+    cursor: pointer;
+}
 .badge-list {
     /* width: 100%; */
     display: flex;
@@ -76,6 +88,12 @@
     appearance: none;
     -webkit-appearance: none;
     margin: 0 6px;
+}
+
+.badge-cicle:hover {
+    border: 1px solid hsl(198, 85%, 49%);
+    color: hsl(198, 85%, 49%);
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
